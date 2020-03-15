@@ -1,0 +1,6 @@
+Country ; Year ; Systemic_crisis ; USD ; GDP ; Inflation ; Inflation_Crises ; OUTPUT
+Russia | 2020.0 | crisis | 0.013 | 1200.0 | 150.33333333333334 | 1 | 1.0
+Russia | 2021.0 | crisis | 0.013 | 1200.0 | -381414.00000000006 | 1 | 1.0
+Russia | 2022.0 | crisis | 0.013 | 1200.0 | -14758.333333333334 | 1 | 1.0
+Russia | 2023.0 | no_crisis | 0.013 | 1200.0 | 40.333333333333336 | 1 | 0.0
+Russia | 2024.0 | no_crisis | 0.013 | 1200.0 | 276.22222222222223 | 1 | 0.0

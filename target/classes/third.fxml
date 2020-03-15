@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="1078.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.window.ThirdStageController">
+   <children>
+      <Pane prefHeight="649.0" prefWidth="1078.0">
+         <children>
+            <TextArea fx:id="area" prefHeight="573.0" prefWidth="899.0">
+               <font>
+                  <Font size="18.0" />
+               </font></TextArea>
+            <Button fx:id="test" layoutX="484.0" layoutY="580.0" mnemonicParsing="false" onAction="#test" prefHeight="1.0" prefWidth="111.0" text="Start">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="correct" layoutX="14.0" layoutY="580.0" mnemonicParsing="false" onAction="#correcting" opacity="0.0" prefHeight="39.0" prefWidth="217.0" text="&lt;= Корректировать данные" />
+            <Button fx:id="conc" layoutX="879.0" layoutY="580.0" mnemonicParsing="false" onAction="#doing_conclusion" opacity="0.0" prefHeight="39.0" prefWidth="147.0" text="Вывод" />
+            <ChoiceBox fx:id="choice" layoutX="902.0" layoutY="108.0" prefHeight="32.0" prefWidth="128.0">
+               <opaqueInsets>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </opaqueInsets>
+            </ChoiceBox>
+            <Label layoutX="902.0" layoutY="14.0" prefHeight="25.0" prefWidth="252.0" text="Выберите обучающую">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="904.0" layoutY="58.0" text="(default : Logistic ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="904.0" layoutY="83.0" text="Regression):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="904.0" layoutY="33.0" prefHeight="25.0" prefWidth="124.0" text="модель" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

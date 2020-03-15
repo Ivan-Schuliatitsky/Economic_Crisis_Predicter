@@ -1,0 +1,6 @@
+Country ; Year ; Systemic_crisis ; USD ; GDP ; Inflation ; Inflation_Crises ; OUTPUT
+Russia | 123.0 | no_crisis | 123.0 | 0.0 | 123.0 | 1 | 1.0
+Russia | 124.0 | no_crisis | 123.0 | 0.0 | 123.0 | 1 | 1.0
+Russia | 125.0 | no_crisis | 123.0 | 0.0 | 123.0 | 1 | 1.0
+Russia | 126.0 | no_crisis | 123.0 | 0.0 | 234.0 | 1 | 1.0
+Russia | 127.0 | no_crisis | 123.0 | 0.0 | 123.0 | 1 | 1.0

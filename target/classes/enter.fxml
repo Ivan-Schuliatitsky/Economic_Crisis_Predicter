@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.window.MainSceneController">
+   <children>
+
+   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="1078.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <Label layoutX="355.0" layoutY="145.0" prefHeight="220.0" prefWidth="430.0" text="Добро пожаловать" textAlignment="CENTER">
+            <font>
+               <Font name="Times New Roman" size="48.0" />
+            </font>
+         </Label>
+         <Button id="mainButton" fx:id="mainButton" layoutX="483.0" layoutY="333.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="32.0" prefWidth="112.0" text="Продолжить " />
+         <Label layoutX="355.0" layoutY="294.0" text="Нажмите кнопку, чтобы продолжить...">
+            <font>
+               <Font name="Times New Roman" size="18.0" />
+            </font>
+         </Label>
+      </children>
+   </Pane>
+   </children>
+</VBox>

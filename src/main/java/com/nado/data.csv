@@ -1,0 +1,6 @@
+case,cc3,country,year,systemic_crisis,exch_usd,domestic_debt_in_default,sovereign_external_debt_default,gdp_weighted_default,inflation_annual_cpi,independence,currency_crises,inflation_crises
+99,RUS,Russia,123.0,0.0,123.0,123.0,123.0,0.0,123.0,1,0,1
+99,RUS,Russia,124.0,0.0,123.0,123.0,123.0,0.0,123.0,1,0,1
+99,RUS,Russia,125.0,0.0,123.0,123.0,123.0,0.0,123.0,1,0,1
+99,RUS,Russia,126.0,0.0,123.0,123.0,123.0,0.0,234.0,1,0,1
+99,RUS,Russia,127.0,0.0,123.0,123.0,123.0,0.0,123.0,1,0,1
